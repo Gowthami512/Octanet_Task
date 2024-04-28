@@ -1,0 +1,230 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+/* chrome scrollbar hide*/
+body::-webkit-scrollbar{
+  display: none;
+}
+.container{
+  width:100%;
+  height:85vh;
+  background-image: url(images/desktop/image-header.jpg);
+}
+.home-pg{
+  margin-bottom: 0px;
+}
+.hd-lg h2{
+  color: azure;
+  position: relative;
+  top:5px;
+  left: 5px;
+  width:300px;
+} 
+.menu{
+  cursor: pointer;
+}
+nav{
+  position:relative;
+  top: -12px;
+  right: 0px;
+}
+ul{
+  float:right;
+
+}
+nav ul li{
+  display:inline-flex;
+  justify-content: space-between;
+  padding: 8px 24px;
+}
+li{
+  cursor: pointer;
+  position:relative;
+}
+li a{
+  text-decoration: none;
+  color:white;
+}
+li:hover{
+  background-color: rgb(60, 176, 230);
+  padding:8px 25px;
+  border-radius: 18px;
+}
+a:active{
+  color: black;
+}
+li:active{
+  background-color: rgb(222, 231, 235);
+}
+.headlogo img{
+  width: 68%;
+  height:78vh;
+  position: relative;
+  object-position: bottom;
+  /* left:25%; */
+  top:-1.6rem;
+  margin-left: 18%;
+  animation: mlogo;
+  animation-duration: 5s; 
+}
+#heading{
+  position: absolute;
+  top:6rem;
+  /* left: 40%; */
+  margin-left: 33%;
+  font-size: 3.5rem;
+  color: antiquewhite;
+  text-transform: uppercase;
+}
+.about-pg{
+  position: relative;
+  top:-1.6rem;
+}
+.des-pg{
+  display: flex;
+}
+.box{
+   /* border: 3px solid black; */
+  width: 50%;
+  height: 60vh;
+}
+.box1{
+  text-align: center;
+  padding: 5rem 50px;
+}
+.box1 h1{
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.box .bx-para{
+  width: 410px;
+  height: 80px;
+  /* border: 2px solid black; */
+  text-align: left;
+  margin-left: 5rem;
+}
+.box img{
+  width: 100%;  
+  height: 60vh;
+}
+.img-dsg{
+  position: absolute;
+  /* border: 2px solid black; */
+  width: 50%;   
+}
+.img-ds{
+  position: relative;
+  top:13rem;
+  text-align: center;
+}
+.img-ds h2{
+  text-align: center;
+}
+.img-ds p{
+  width: 350px;
+  text-align: center;
+  margin-left: 5rem;
+  margin-top: 10px;
+  /* border: 2px solid black; */
+
+}
+#client-head{
+  text-align:center ;
+  margin: 20px;
+  color: darkgrey;
+  text-transform: uppercase;
+}
+.client-pg{
+  display: flex;
+  margin: 0 8% 20% 8% ; 
+}
+.client{
+  width: 500px;
+  height:400px;
+  background: linear-gradient(white,rgb(219, 214, 214));
+  margin-left: 5px;
+  /* border: 3px solid black; */
+}
+.client img{
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  margin: 2px 8rem;
+}
+.client p{
+  /* width: 300px; */
+  padding: 30px;
+  text-align: center;
+}
+.prof-pst{
+  margin-top: 2rem;
+  vertical-align: bottom;
+  text-align: center;
+
+}
+.name{
+ font-weight: bold;
+ /* padding-left: 8rem; */
+ margin-bottom: 0px;
+}
+.designation{
+  display: block;
+  text-align: center;
+  color: darkgray;
+}
+.img-vw{
+  display:flex;
+  padding: 5px;
+  position: relative;
+  top:-14rem;
+  /* border: 3px solid black; */
+}
+.img-logo img{
+  width:335px;
+  height:330px;
+}
+footer{
+  background: rgb(72, 217, 243);
+  text-align: center;
+  position: relative;
+  top:-15rem;
+  margin-bottom: 0;
+}
+footer h3{
+  font-size: 2.5rem;
+  padding-top: 3rem;
+}
+.opt{
+  display: inline-flex;
+  /* margin-left: 40%; */
+}
+.opt a{
+  text-decoration: none;
+  padding: 20px ;
+  cursor: pointer;
+}
+.opt a:hover{
+  color:aliceblue;
+}
+.soc-links{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#s-logo{
+  margin: auto 10px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+#s-logo path:hover{
+  fill: aliceblue;
+  transition: 0.15s;
+}
+@keyframes mlogo{
+  10%{padding-left: 10rem;}
+  35%{padding-right: 50px;}
+  50%{ padding-left: 20px;}
+}
